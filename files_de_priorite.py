@@ -87,5 +87,5 @@ file_de_priorite.affiche()
 min_element = file_de_priorite.extract_min()
 print(f"Élément de priorité minimale extrait: Key: {min_element.key}, Priority: {min_element.priority}")
 
-print("Contenu de la file de priorité après extraction:")
+print("Contenu de la file de priorité après extraction: ")
 file_de_priorite.affiche()
